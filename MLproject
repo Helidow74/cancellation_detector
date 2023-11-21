@@ -1,7 +1,7 @@
 name: doctolib_cancellation_detector
 
 docker_env:
-  image: sample-mlflow-server
+  image: docker
   volumes: ["$(pwd):/home/app"]
   environment: [
       "MLFLOW_TRACKING_URI",
