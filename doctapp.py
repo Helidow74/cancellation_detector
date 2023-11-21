@@ -17,7 +17,6 @@ if __name__ == "__main__":
     EXPERIMENT_NAME="appointment_cancellation_detector"
 
     # Set tracking URI to your Heroku application
-    os.environ["APP_URI"] = "https://ursula-app-91df12ca461d.herokuapp.com/"
     mlflow.set_tracking_uri(os.environ["APP_URI"])
 
     # Set experiment's info 
